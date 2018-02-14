@@ -27,6 +27,14 @@ h1,h2,h3,h4,h5 {
     opacity: 1;
 }
 
+.fadeLeft {
+    
+}
+
+.fadeRight {
+    
+}
+
 /** Header Navigation **/
 header .navbar {
 	padding: 30px;
@@ -288,6 +296,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 /** Angebote **/
 #angebote {
+    background-color: rgb(255, 227, 137);
 	padding: 0;
 }
 
@@ -385,6 +394,24 @@ header .navbar-default .navbar-toggle .icon-bar{
 	border-top: 20px solid rgba(238, 200, 86, .5);
 	border-bottom: 20px solid rgba(238, 200, 86, .5);
 	*/
+}
+
+.kontakt {
+     background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+}
+
+.karte {
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    
 }
 
 /** footer **/

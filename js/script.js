@@ -104,7 +104,7 @@ $(function() {
     
     //ANIMATE CSS
     $(document).ready(function() {
-        $('#portrait').addClass("hideit").viewportChecker({
+        $('.fadeRight').addClass("hideit").viewportChecker({
             classToAdd: 'showit animated fadeInRight',
             offset: 100
         });
@@ -112,7 +112,7 @@ $(function() {
     
     
     $(document).ready(function() {
-        $('#about-text').addClass("hideit").viewportChecker({
+        $('.fadeLeft').addClass("hideit").viewportChecker({
             classToAdd: 'showit animated fadeInLeft',
             offset: 100
         });
