@@ -19,6 +19,13 @@ h1,h2,h3,h4,h5 {
 	
 }
 
+.hideit {
+    opacity: 0;
+}
+
+.showit {
+    opacity: 1;
+}
 
 /** Header Navigation **/
 header .navbar {
@@ -233,6 +240,15 @@ header .navbar-default .navbar-toggle .icon-bar{
 #about p {
 	margin-bottom: 40px;
 }
+
+#portrait {
+    
+}
+
+#about-text {
+    
+}
+
 
 
 /** page dienste **/

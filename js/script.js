@@ -98,7 +98,26 @@ $(function() {
 	$('.carousel').carousel({
 		pause: false
 	});
+    
+    
 
+    
+    //ANIMATE CSS
+    $(document).ready(function() {
+        $('#portrait').addClass("hideit").viewportChecker({
+            classToAdd: 'showit animated fadeInRight',
+            offset: 100
+        });
+    });
+    
+    
+    $(document).ready(function() {
+        $('#about-text').addClass("hideit").viewportChecker({
+            classToAdd: 'showit animated fadeInLeft',
+            offset: 100
+        });
+    });
+    
 	
 	
 });
