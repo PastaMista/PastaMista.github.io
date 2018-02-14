@@ -241,12 +241,21 @@ header .navbar-default .navbar-toggle .icon-bar{
 	margin-bottom: 40px;
 }
 
-#portrait {
-    
+#portrait { 
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
 }
 
 #about-text {
-    
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
 }
 
 
