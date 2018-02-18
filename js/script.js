@@ -118,6 +118,28 @@ $(function() {
         });
     });
     
+    
+    $('#clickme').on('click', function() {
+        $('.more').addClass('showme');
+        $('.more').removeClass('showmenot');
+        
+    });
+    
+    $('#clickmeaway').on('click', function() {
+        $('.more').addClass('showmenot');
+        $('.more').removeClass('showme');
+    });
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
 	
 	
 });

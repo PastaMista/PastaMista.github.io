@@ -249,7 +249,8 @@ header .navbar-default .navbar-toggle .icon-bar{
 	margin-bottom: 40px;
 }
 
-#portrait { 
+#portrait {
+   
     border: 1px solid black;
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
@@ -258,6 +259,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 #about-text {
+   
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -319,7 +321,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 #angebote blockquote .quote:hover {
-	background-color: rgba(239,240,196,.9);
+	
 }
 
 #angebote #akupunktur {
@@ -358,20 +360,14 @@ header .navbar-default .navbar-toggle .icon-bar{
 	font-weight: 400;
 }
 
-#angebote .quote .more {
-	opacity: 0;
+
+
+.more {
+	
 	font-size: 0;
 	line-height: 0;
 	padding-top: 10px
-}
-
-#angebote .quote:hover .more {
-	font-family: "Open Sans", sans-serif;
-	font-weight: 100;
-	display: block;
-	opacity: 1;
-	font-size: .8em;
-	line-height: 120%;
+        
 }
 
 #angebote .quote .intro:after {
@@ -380,10 +376,32 @@ header .navbar-default .navbar-toggle .icon-bar{
 	
 }
 
+.showme {
+    font-size: .8em;
+}
+
+.showmenot {
+    font-size: 0;
+}
+
+#clickme {
+    
+}
+
+/*#angebote .quote:hover .more {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	display: block;
+	opacity: 1;
+	font-size: .8em;
+	line-height: 120%;
+}
+
+
 #angebote .quote:hover .intro::after {
 	content: "";
 }
-
+*/
 
 
 /** Kontakt **/
@@ -399,6 +417,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 .kontakt {
      background-color: white;
     border: 1px solid black;
+    margin-bottom: 20px;
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
     -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
