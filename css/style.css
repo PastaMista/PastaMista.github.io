@@ -251,7 +251,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 #portrait {
    
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
     -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
@@ -261,7 +261,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 #about-text {
    
     background-color: white;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
     -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
@@ -370,6 +370,46 @@ header .navbar-default .navbar-toggle .icon-bar{
         
 }
 
+.more2 {
+	
+	font-size: 0;
+	line-height: 0;
+	padding-top: 10px
+        
+}
+
+.more3 {
+	
+	font-size: 0;
+	line-height: 0;
+	padding-top: 10px
+        
+}
+
+.more4 {
+	
+	font-size: 0;
+	line-height: 0;
+	padding-top: 10px
+        
+}
+
+.more5 {
+	
+	font-size: 0;
+	line-height: 0;
+	padding-top: 10px
+        
+}
+
+.more6 {
+	
+	font-size: 0;
+	line-height: 0;
+	padding-top: 10px
+        
+}
+
 #angebote .quote .intro:after {
 	content: "...";
 
@@ -385,7 +425,11 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 #clickme {
-    
+    margin-top: 4px;
+}
+
+#clickmeaway {
+    margin-top: 4px;
 }
 
 /*#angebote .quote:hover .more {
@@ -416,7 +460,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 .kontakt {
      background-color: white;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     margin-bottom: 20px;
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
@@ -425,7 +469,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 .karte {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
     -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
