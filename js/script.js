@@ -119,83 +119,83 @@ $(function() {
     });
     
     
-    $('#clickme').on('click', function() {
-        $('.more').addClass('showme');
-        $('.more').removeClass('showmenot');
-        
-    });
-    
-    $('#clickmeaway').on('click', function() {
-        $('.more').addClass('showmenot');
-        $('.more').removeClass('showme');
-    });
-    
-    
-    
-    
-     $('#clickme2').on('click', function() {
-        $('.more2').addClass('showme');
-        $('.more2').removeClass('showmenot');
-        
-    });
-    
-    $('#clickmeaway2').on('click', function() {
-        $('.more2').addClass('showmenot');
-        $('.more2').removeClass('showme');
-    });
-    
-    
-    
-     $('#clickme3').on('click', function() {
-        $('.more3').addClass('showme');
-        $('.more3').removeClass('showmenot');
-        
-    });
-    
-    $('#clickmeaway3').on('click', function() {
-        $('.more3').addClass('showmenot');
-        $('.more3').removeClass('showme');
-    });
-    
-    
-    
-     $('#clickme4').on('click', function() {
-        $('.more4').addClass('showme');
-        $('.more4').removeClass('showmenot');
-        
-    });
-    
-    $('#clickmeaway4').on('click', function() {
-        $('.more4').addClass('showmenot');
-        $('.more4').removeClass('showme');
-    });
-    
-    
-    
-     $('#clickme5').on('click', function() {
-        $('.more5').addClass('showme');
-        $('.more5').removeClass('showmenot');
-        
-    });
-    
-    $('#clickmeaway5').on('click', function() {
-        $('.more5').addClass('showmenot');
-        $('.more5').removeClass('showme');
-    });
-    
-    
-    
-     $('#clickme6').on('click', function() {
-        $('.more6').addClass('showme');
-        $('.more6').removeClass('showmenot');
-        
-    });
-    
-    $('#clickmeaway6').on('click', function() {
-        $('.more6').addClass('showmenot');
-        $('.more6').removeClass('showme');
-    });
-    
+//    $('#clickme').on('click', function() {
+//        $('.more').addClass('showme');
+//        $('.more').removeClass('showmenot');
+//        
+//    });
+//    
+//    $('#clickmeaway').on('click', function() {
+//        $('.more').addClass('showmenot');
+//        $('.more').removeClass('showme');
+//    });
+//    
+//    
+//    
+//    
+//     $('#clickme2').on('click', function() {
+//        $('.more2').addClass('showme');
+//        $('.more2').removeClass('showmenot');
+//        
+//    });
+//    
+//    $('#clickmeaway2').on('click', function() {
+//        $('.more2').addClass('showmenot');
+//        $('.more2').removeClass('showme');
+//    });
+//    
+//    
+//    
+//     $('#clickme3').on('click', function() {
+//        $('.more3').addClass('showme');
+//        $('.more3').removeClass('showmenot');
+//        
+//    });
+//    
+//    $('#clickmeaway3').on('click', function() {
+//        $('.more3').addClass('showmenot');
+//        $('.more3').removeClass('showme');
+//    });
+//    
+//    
+//    
+//     $('#clickme4').on('click', function() {
+//        $('.more4').addClass('showme');
+//        $('.more4').removeClass('showmenot');
+//        
+//    });
+//    
+//    $('#clickmeaway4').on('click', function() {
+//        $('.more4').addClass('showmenot');
+//        $('.more4').removeClass('showme');
+//    });
+//    
+//    
+//    
+//     $('#clickme5').on('click', function() {
+//        $('.more5').addClass('showme');
+//        $('.more5').removeClass('showmenot');
+//        
+//    });
+//    
+//    $('#clickmeaway5').on('click', function() {
+//        $('.more5').addClass('showmenot');
+//        $('.more5').removeClass('showme');
+//    });
+//    
+//    
+//    
+//     $('#clickme6').on('click', function() {
+//        $('.more6').addClass('showme');
+//        $('.more6').removeClass('showmenot');
+//        
+//    });
+//    
+//    $('#clickmeaway6').on('click', function() {
+//        $('.more6').addClass('showmenot');
+//        $('.more6').removeClass('showme');
+//    });
+//    
     
    
     

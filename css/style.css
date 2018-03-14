@@ -247,6 +247,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 #about p {
 	margin-bottom: 40px;
+    margin: 40px;
 }
 
 #portrait {
@@ -361,7 +362,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 
-
+/*
 .more {
 	
 	font-size: 0;
@@ -409,6 +410,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 	padding-top: 10px
         
 }
+*/
 
 #angebote .quote .intro:after {
 	content: "...";
@@ -459,7 +461,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 .kontakt {
-     background-color: white;
+    background-color: white;
    /* border: 1px solid black;*/
     margin-bottom: 20px;
     border-radius: 5px;
@@ -469,6 +471,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 .karte {
+    
     /*border: 1px solid black;*/
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
