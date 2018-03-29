@@ -119,6 +119,33 @@ $(function() {
     });
     
     
+    
+    
+   function hideToggle(button, elem) {
+ 
+    $(button).toggle(
+        function () {
+            $(elem).hide();
+    },
+    function () {
+        $(elem).show();
+    }
+);
+    
+   }
+
+hideToggle(".button1", ".pdf1");
+hideToggle(".button2", ".iframe2");
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
 //    $('#clickme').on('click', function() {
 //        $('.more').addClass('showme');
 //        $('.more').removeClass('showmenot');

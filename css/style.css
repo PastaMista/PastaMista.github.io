@@ -412,18 +412,14 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 */
 
-#angebote .quote .intro:after {
-	content: "...";
 
-	
-}
 
 .showme {
-    font-size: .8em;
+    display: visible;
 }
 
 .showmenot {
-    font-size: 0;
+    display: hidden;
 }
 
 #clickme {
