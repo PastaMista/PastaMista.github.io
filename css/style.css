@@ -270,6 +270,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 #about-text {
     background-color: rgb(254, 219, 155);
     /*background-color: white;*/
+    margin: 0 20px 10px;
     padding: 20px 20px;
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
@@ -369,6 +370,11 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 #angebote #blueten {
+	background: url(../images/angebote/alpaca.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#angebote #biochemie {
 	background: url(../images/angebote/alpaca.jpg) no-repeat center center;
 	background-size: cover;
 }
