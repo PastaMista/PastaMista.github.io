@@ -6,6 +6,7 @@ body {
 	font-weight: 400;
 	font-size: 2em;
 	position: relative; /** need for scrolspy **/
+    background-color: rgb(254, 219, 155);
 }
 
 p {
@@ -241,8 +242,8 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 /** page about **/
 
-#about {
-	background-color: rgb(255, 227, 137);
+#about { 
+	/*background-color: rgb(254, 227, 137);*/
 	/*background-color: #E4d29D;
 	background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
 	*/
@@ -268,9 +269,9 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 #about-text {
-   
-    background-color: white;
-    /*border: 1px solid black;*/
+    background-color: rgb(254, 219, 155);
+    /*background-color: white;*/
+    padding: 10px 10px;
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
     -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
@@ -307,7 +308,6 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 /** Angebote **/
 #angebote {
-    background-color: rgb(255, 227, 137);
 	padding: 0;
 }
 
@@ -456,7 +456,6 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 /** Kontakt **/
 #kontakt {
-	background-color: rgb(255, 227, 137);
 	/*background-image: linear-gradient(to bottom, #819A2D, #EEF08A);
 	/*
 	border-top: 20px solid rgba(238, 200, 86, .5);
@@ -465,7 +464,9 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 .kontakt {
-    background-color: white;
+    background-color: rgb(254, 219, 155);
+    text-align: center;
+    padding-top: 10px;
    /* border: 1px solid black;*/
     margin-bottom: 20px;
     border-radius: 5px;
@@ -489,8 +490,8 @@ footer {
 	background: rgba(88,88,88,1);
 	color: white;
 	font-size: .8em;
-	padding: 20px 0 40px 0;
-	margin-top: ;
+	padding: 20px 0 20px 0;
+	margin-top: 20px;
 }
 
 footer a{
@@ -543,12 +544,6 @@ footer .navbar-default {
 iframe {
 	margin-bottom: 40px;
 }
-
-
-
-
-
-
 
 
 
