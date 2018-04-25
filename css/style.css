@@ -256,7 +256,6 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 #about p {
 	margin-bottom: 40px;
-    margin: 40px;
 }
 
 #portrait {
@@ -271,7 +270,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 #about-text {
     background-color: rgb(254, 219, 155);
     /*background-color: white;*/
-    padding: 10px 10px;
+    padding: 20px 20px;
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
     -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
