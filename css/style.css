@@ -310,6 +310,17 @@ header .navbar-default .navbar-toggle .icon-bar{
 	padding: 0;
 }
 
+.einleitung {
+    background-color: rgb(254, 219, 155);
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    -moz-box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+    box-shadow: 10px 10px 19px 5px rgba(0,0,0,0.51);
+}
+
 #angebote blockquote {
 	margin: 0;
 	padding: 0;
@@ -363,7 +374,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 #angebote .quote {
-	font-size: 1.2em;
+	font-size: 1em;
 	line-height: 100%;
 	font-weight: 400;
 }
