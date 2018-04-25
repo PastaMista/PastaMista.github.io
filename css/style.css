@@ -363,7 +363,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 
 #angebote .quote {
-	font-size: 1em;
+	font-size: 1.5em;
 	line-height: 100%;
 	font-weight: 400;
 }
@@ -543,6 +543,8 @@ footer .navbar-default {
 iframe {
 	margin-bottom: 40px;
 }
+
+
 
 
 
