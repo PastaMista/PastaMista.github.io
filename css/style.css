@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5 {
 	font-family: "Nunito", sans-serif;
 	font-weight: 400;
 	margin: 0;
+    opacity: 0;
 	
 }
 
@@ -38,15 +39,19 @@ h1,h2,h3,h4,h5 {
 
 /** Header Navigation **/
 header .navbar {
+    background: transparent;
 	padding: 30px;
 	transition: all .5s ease-out; /* Übergang der nav styles */
 }
 
 header .navbar-default {
-	background-color: transparent;
 	border: none;
 	font-family: "Nunito", "sans-serif";
 	font-weight:400;
+}
+
+header .navbar-collapse {
+    
 }
 
 header .navbar-default .navbar-nav a {
