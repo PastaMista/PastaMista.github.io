@@ -117,7 +117,7 @@ header .inbody {
 
 header .navbar.inbody {
 	padding-top: 0;
-	/*padding-bottom: 0;*/
+	padding-bottom: 12px;
 }
 
 header .navbar.inbody .navbar-nav {
