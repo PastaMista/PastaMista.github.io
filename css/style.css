@@ -13,7 +13,7 @@ p {
 	
 }
 
-h1,h2,h3,h4,h5 {
+h2 {
 	font-family: "Nunito", sans-serif;
 	font-weight: 400;
 	margin: 0;
@@ -581,3 +581,7 @@ iframe {
 
 
 
+
+title {
+    opacity: 1;
+}
