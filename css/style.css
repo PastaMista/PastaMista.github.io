@@ -117,7 +117,7 @@ header .inbody {
 
 header .navbar.inbody {
 	padding-top: 0;
-	padding-bottom: 0;
+	/*padding-bottom: 0;*/
 }
 
 header .navbar.inbody .navbar-nav {
@@ -146,6 +146,14 @@ header .navbar-default .navbar-toggle .icon-bar{
 	and (max-width: 768px) {
 		header .navbar-collapse.in {
 			background-color: rgba(0,0,0 , .5);
+            margin-top: 40px;
+		}
+}
+
+@media only screen 
+	and (max-width: 768px) {
+		.navbar-brand {
+			width: 70%;
 		}
 }
 
@@ -560,6 +568,8 @@ footer .navbar-default {
 iframe {
 	margin-bottom: 40px;
 }
+
+
 
 
 
