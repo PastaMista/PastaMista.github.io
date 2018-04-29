@@ -450,7 +450,6 @@ header .navbar-default .navbar-toggle .icon-bar{
 */
 
 
-
 .showme {
     display: visible;
 }
@@ -584,4 +583,10 @@ iframe {
 
 title {
     opacity: 1;
+}
+
+
+
+.btn-xs {
+    margin-bottom: 5px;
 }
