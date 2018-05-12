@@ -346,6 +346,17 @@ and (min-width: 450px) and (max-width: 786px) {
   border-radius: 0 50px 0 0;
 }
 
+
+@media only screen and (max-width: 768px) {
+    #meso{
+        font-size: .7em;
+    }
+    #antiaging {
+        font-size: .8em;
+    }
+}
+
+
 #angebote blockquote .quote:hover {}
 
 #angebote #akupunktur {
@@ -373,13 +384,18 @@ and (min-width: 450px) and (max-width: 786px) {
   background-size: cover;
 }
 
-#angebote #blueten {
-  background: url(../images/angebote/blueten_1.jpg) no-repeat center center;
+#angebote #antiaging {
+  background: url(../images/angebote/anti_aging.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#angebote #biochemie {
-  background: url(../images/angebote/biochemie.jpg) no-repeat center center;
+#angebote #meso {
+  background: url(../images/angebote/meso.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#angebote #infusion {
+  background: url(../images/angebote/infusion.jpg) no-repeat center center;
   background-size: cover;
 }
 
