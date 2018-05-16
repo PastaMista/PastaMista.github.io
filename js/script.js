@@ -42,6 +42,10 @@ $(function() {
     offset: topoffset
   });
 
+    /* close nav after click */
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
 
 
 
