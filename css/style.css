@@ -17,12 +17,24 @@ h2 {
   opacity: 0;
 }
 
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  text-align: center;
+    
+}
+
 .hideit {
   opacity: 0;
 }
 
 .showit {
   opacity: 1;
+}
+
+.center {
+    text-align: center;
 }
 
 .fadeLeft {}
@@ -283,6 +295,19 @@ and (max-width: 768px) {
   -moz-box-shadow: 10px 10px 19px 5px rgba(0, 0, 0, 0.51);
   box-shadow: 10px 10px 19px 5px rgba(0, 0, 0, 0.51);
 }
+
+/** Special **/
+.spezial {
+  background-color: rgb(254, 219, 155);
+  /*background-color: white;*/
+  margin: 0 20px 10px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 19px 5px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 10px 10px 19px 5px rgba(0, 0, 0, 0.51);
+  box-shadow: 10px 10px 19px 5px rgba(0, 0, 0, 0.51);
+}
+
 
 /** page dienste **/
 
@@ -586,3 +611,5 @@ title {
 .btn-xs {
   margin-bottom: 5px;
 }
+
+
